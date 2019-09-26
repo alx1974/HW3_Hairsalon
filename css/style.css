@@ -1,0 +1,137 @@
+.head{
+    height: 300px;
+    width: auto;
+    margin-left: 30px;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+}
+
+.main {
+    width: auto;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    'text-align: center;
+}
+#main-left{
+    float: left;
+    position: absolute;
+
+    margin-left: 30px;
+    width: auto;
+    height: 300px;
+    background-color: white;
+    color: blue;
+}
+#main-right{
+    height: 300px;
+    width: auto;
+    background-color: white;
+    color: blue;
+    position: absolute;
+    right: 100px;
+}
+.main-faq {
+    position: relative;
+    width: auto;
+    height: auto;
+    'margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  #eee;
+    text-align: center;
+    color: black;
+}
+.pricelist {
+    width: auto;
+    height: 400px;
+    left: auto;
+    right: auto;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.footer{
+    position: relative;
+    height: 270px;
+    width: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:0 px;
+    background: black;
+    color: white;
+}
+#footer-left{
+    float: left;
+    position: absolute;
+    left: 60px;
+    width: 250px;
+    background: black;
+    color: white;
+
+}
+#footer-right{
+    'float: right;
+    'padding: 250px;
+    width: 400px;
+    position: absolute;
+    right: 280px;
+    background: black;
+    color: white;
+}
+.button {
+    height: 30px;
+    width: auto;
+    background-color: blue;
+    color: white;
+}
+#text-blue{
+    color: blue;
+}
+#text-red{
+    color: red;
+}
+.text-left{
+    margin-left: 20px;
+    text-align: left;
+}
+#table-price{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#search{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 250px;
+    margin-right: 20px;
+}
+#item_hidden {
+    display: none;
+    text-align: center;
+}
+#accordion section p {
+    display: none;
+    text-align: center;
+}
+#accordion section p: target{
+    display: block;
+    text-align: center;
+}
+#accordion section a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+#accordion section a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
