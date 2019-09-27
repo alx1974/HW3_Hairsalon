@@ -11,6 +11,7 @@
 
   <link rel="stylesheet" href="css\bootstrap.css">
   <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\accordion.css">
   <title>Hit Friseur</title>
   
 </head>
@@ -26,7 +27,9 @@
     <a href="faerben.html">Färben</a> |
     <a href="preise.html">Preisliste</a> |
     </nav>
+
       <form class="form-inline my-2 my-lg-0">
+        <h4> Textsuche</h4>
                 <input class="form-control mr-sm-2" type="search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Suchen</button>
       </form>
@@ -43,15 +46,16 @@
         <br>
         <input type="search"> Telefon<br>
         <br>
-        <textarea col="2">Geben Sie hier Ihre Nachricht ein</textarea><br>
+        <textarea cols="30" rows="3">Geben Sie hier Ihre Nachricht ein</textarea><br>
         <button>Senden</button>
       </form>
     </div>
     <div id="main-right">
       <br>
       <table border="5">
-        <th>Öffnungszeiten</th>
-        <th></th>
+        <h3>Öffnungszeiten</h3>
+        <th>Wochentag</th>
+        <th>Uhrzeit</th>
         <tr>
           <td>Montag</td>
           <td>8 Uhr bis 18 Uhr</td>
@@ -78,24 +82,20 @@
 
   </div>
   <div class="main-faq">
-    <h3>FAQ</h3>
+    <h3>FAQ (Häufig gestellte Fragen)</h3>
     <hr>
-    <main id="accordion">
-      <section>
-        <a ref="#index1" target="index1">
-        <h4><b>Frage:</b> Dürfen Haustiere mirgenommen werden?</h4>
-        </a>
-        <p id="index1">
-          <b>Antwort:</b> Haustiere dürfen mitgenommen werden. Bitte um Bekanntgabe bei der Terminbuchung.
-        </p>
-      </section>
-      <section>
-        <a ref="#index2"><h4><b>Frage:</b> Können Gutscheine erworben werden?</h4></a>
-        <p id="index2">
-          <b>Antwort:</b> Ja, Gutscheine können aber nur im Geschäft erworben werden.
-        </p>
-      </section>
-    </main>
+    <details>
+      <summary><b>Frage:</b> Muss ich einen Termin vereinbaren?</summary>
+      <p><b>Antwort:</b> Nein, aber Sie müssen aber mit einer längeren Wartezeit rechnen.</p>
+    </details>
+    <details>
+      <summary><b>Frage:</b> Dürfen Haustiere mitgenommen werden?</summary>
+      <p><b>Antwort:</b> Ja, aber bitte unbedingt bei der Terminvereinbarung bekanntgeben.</p>
+    </details>
+    <details>
+      <summary><b>Frage:</b> Kann ich bei Ihnen Gutscheine erwerben?</summary>
+      <p><b>Antwort:</b> Ja, diese können aber nur im Geschäft erworben werden.</p>
+    </details>
   </div>
   <div class="footer">
     <hr>

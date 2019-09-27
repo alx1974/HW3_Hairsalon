@@ -1,0 +1,7 @@
+details[open] summary {
+   font-style: italic;
+}
+
+summary {
+  cursor:pointer;
+}
